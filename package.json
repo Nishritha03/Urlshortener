@@ -1,0 +1,33 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "main": "code.js",
+  "scripts": {
+    "start": "node indexes.js",
+    "dev": "nodemon indexes.js"
+  },
+  "keywords": [
+    "URL",
+    "shortener",
+    "Express",
+    "mongodb",
+    "Handlebars"
+  ],
+  "author": "Nishritha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.3.4",
+    "mongose": "^0.0.2-security",
+    "nanoid": "^5.0.7",
+    "short-unique-id": "^5.2.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "description": ""
+}
